@@ -27,7 +27,7 @@
 
 table {
     border-collapse: collapse;
-    width: 600px;
+    width: 700px;
 }
 
 table td {
@@ -62,7 +62,7 @@ table td input {
 
 hr {
 
-    width : 600px;
+    width : 700px;
     height : 3px;
     background-color : black;
 
