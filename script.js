@@ -617,7 +617,7 @@ const list = {
             result: {
                 type: "code",
                 code: "9613",
-                text: "안쪽 손잡이에서 왼쪽의 한 지문과<br>바깥쪽 손잡이에서<br>오른쪽의 두 종류의 지문이 발견됐다.",
+                text: "안쪽 손잡이에서 왼쪽의 한 지문과<br>바깥쪽 손잡이에서 오른쪽의 두 종류의 지문이 발견됐다.",
                 image: "BABfinger.png"
             }
         }, {
