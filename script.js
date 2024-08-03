@@ -672,6 +672,8 @@ const list = {
     ]
 };
 
+let rowIndex = 1;
+
 function populateSelect(selectElement, items) {
     selectElement.innerHTML = ''; // Clear existing options
     items.forEach(value => {
@@ -683,6 +685,7 @@ function populateSelect(selectElement, items) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+    
     const placeSelect = document.getElementById('place');
     const itemSelect = document.getElementById('item');
     const methodSelect = document.getElementById('method');
@@ -729,6 +732,8 @@ list.methods.forEach(value => {
 function addTable(value) {
     const selectElement = document.getElementById('table-body');
     const tr = document.createElement('tr');
+    const td0 = document.createElement('td');
+    td0.textContent = rowIndex++; // Set the row index
     const td1 = document.createElement('td');
     td1.value = value.place; // Set the value attribute
     td1.textContent = value.place; // Set the display text
@@ -738,6 +743,7 @@ function addTable(value) {
     const td3 = document.createElement('td');
     td3.value = value.method; // Set the value attribute
     td3.textContent = value.method; // Set the display text
+    tr.appendChild(td0);
     tr.appendChild(td1);
     tr.appendChild(td2);
     tr.appendChild(td3);
@@ -829,7 +835,7 @@ function startInvestigation() {
         item: item,
         method: method,
         result: result
-    })
+    });
 
     //alert(`수사가 시작되었습니다! 장소: ${place}, 물품: ${item}, 수사방법: ${method}`);
 }
