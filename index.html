@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V. F. S. 수사일지</title>
+    <link rel="stylesheet" href="styles.css"> <!-- 외부 스타일시트 연결 -->
+    <script src="script.js" defer></script> <!-- 외부 스크립트 파일 연결 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Song+Myung&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Song+Myung&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <section id="investigation">
+            <h2 class="black-title">V. F. S. 수사일지</h1>
+                <form class="thick">
+                    <div>
+                        <label class="thin">장소: </label>
+                        <select id="place" class="thin">
+                        </select>
+                    </div>
+                    <div>
+                        <label class="thin">수사 물품: </label>
+                        <select id="item" class="thin">
+                        </select>
+                    </div>
+                    <div>
+                        <label class="thin">수사 방법: </label>
+                        <select id="method" class="thin">
+                        </select>
+                    </div>
+                    <div>
+                        <input type="button" class="thick" value="수사하기" onclick="startInvestigation()" />
+                    </div>
+                </form>
+            <br>
+            <hr />
+        </section>
+        <section id="record">
+            <h2 class="black-title">수사 기록</h2>
+            <table border="1px solid black">
+                <thead>
+                    <tr class="thick">
+                        <th>장소</th>
+                        <th>수사<br>물품</th>
+                        <th>수사<br>방법</th>
+                        <th>결과</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body" class="thin">
+                </tbody>
+            </table>
+        <br>
+        <hr />
+        </section>
+    </div>
+    <footer>
+        <p class="thin">&copy; 찾아가는 국과수 V. F. S.</p>
+    </footer>
+</body>
+
+</html>
