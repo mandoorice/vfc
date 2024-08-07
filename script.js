@@ -256,7 +256,7 @@ const list = {
             result: {
                 type: "code",
                 code: "2951",
-                text: "요원 1의 DNA가 발견됐다.",
+                text: "요원 2의 DNA가 발견됐다.",
             }
         }, {
             place: "B의 침실",
@@ -265,7 +265,7 @@ const list = {
             result: {
                 type: "code",
                 code: "5012",
-                text: "요원 2의 DNA가 발견됐다.",
+                text: "요원 3의 DNA가 발견됐다.",
             }
         }, {
             place: "B의 침실",
