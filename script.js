@@ -592,7 +592,7 @@ const list = {
             result: {
                 type: "code",
                 code: "9613",
-                text: "안쪽 손잡이에서 지유의 지문과<br>바깥쪽 손잡이에서 민규와 지유의 지문이 발견됐다.",
+                text: "방 안쪽 손잡이에서 지유의 지문과<br>방 밖쪽 손잡이에서 민규와 지유의 지문이 발견됐다.",
                 image: "BABfinger.png"
             }
         }, {
