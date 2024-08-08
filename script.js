@@ -639,7 +639,7 @@ const list = {
             result: {
                 type: "code",
                 code: "3152",
-                image: "XCkakao.png"
+                image: "XCXBkakao.png"
             }
         }
     ]
