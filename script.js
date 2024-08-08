@@ -641,7 +641,7 @@ const list = {
             result: {
                 type: "code",
                 code: "3152",
-                image: "XCXBkakao.png"
+                image: "XBXCkakao.png"
             }
         }
     ]
