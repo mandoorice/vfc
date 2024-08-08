@@ -1,19 +1,19 @@
 const list = {
     places: [
-        "A의 서재", "B의 침실", "C의 사무실", "사건 현장"
+        "민규의 서재", "지유의 침실", "정호의 사무실", "사건 현장"
     ],
     items : {
-        "A의 서재": ["블레이저", "카펫", "서적", "스탠드", "목도리", "핸드폰", "골프채"],
-        "B의 침실": ["아버지의 요원증", "가족 사진", "무드등", "베개", "TV", "클립 파일", "빨간 담배", "노란 담배", "갈색 담배", "일기장", "사과", "과도", "칼집", "장갑"],
-        "C의 사무실": ["볼펜꽂이", "클립 파일", "달력", "서적", "액자", "노트북", "금고", "마우스", "마우스패드", "금고 속 무언가"],
-        "사건 현장": ["시신의 팔", "시신의 손", "시신의 시반", "현장의 바닥", "칼", "서적", "문 손잡이", "졸업증", "열쇠", "핸드폰"]
+        "민규의 서재": ["블레이저", "카펫", "서적", "스탠드", "목도리", "핸드폰", "골프채"],
+        "지유의 침실": ["아버지의 요원증", "가족 사진", "무드등", "베개", "TV", "클립 파일", "빨간 담배", "노란 담배", "갈색 담배", "일기장", "사과", "과도", "칼집", "장갑"],
+        "정호의 사무실": ["볼펜꽂이", "클립 파일", "달력", "서적", "액자", "노트북", "금고", "마우스", "마우스패드", "금고 속 무언가"],
+        "사건 현장": ["시신의 팔", "시신의 시반", "현장의 바닥", "칼", "서적", "문 손잡이", "졸업증", "열쇠", "핸드폰"]
     },
     methods : [
         "혈흔 감식", "시신 부검", "디지털 포렌식", "지문 분석", "DNA 분석"
     ],
     results : [
         {
-            place: "A의 서재", //*******************************A의 서재
+            place: "민규의 서재", //*******************************민규의 서재
             item: "블레이저",
             method: "혈흔 감식",
             result: {
@@ -22,17 +22,17 @@ const list = {
                 image: "luminolO.png"
             }
         }, {
-            place: "A의 서재", 
+            place: "민규의 서재", 
             item: "블레이저",
             method: "지문 분석",
             result: {
                 type: "code",
                 code: "9163",
-                text: "두 종류의 지문이 발견됐다.",
+                text: "민규와 X의 지문이 발견됐다.",
                 image: "AXfinger.png"
             }
         }, {
-            place: "A의 서재", 
+            place: "민규의 서재", 
             item: "블레이저",
             method: "DNA 분석",
             result: {
@@ -41,7 +41,7 @@ const list = {
                 text: "X의 DNA가 발견됐다."
             }
         }, {
-            place: "A의 서재", 
+            place: "민규의 서재", 
             item: "카펫",
             method: "혈흔 감식",
             result: {
@@ -50,17 +50,17 @@ const list = {
                 image: "luminolX.png"
             }
         }, {
-            place: "A의 서재", 
+            place: "민규의 서재", 
             item: "카펫",
             method: "지문 분석",
             result: {
                 type: "code",
                 code: "7084",
-                text: "두 종류의 지문이 발견됐다.",
+                text: "민규와 X의 지문이 발견됐다.",
                 image: "AXfinger.png"
             }
         }, {
-            place: "A의 서재", 
+            place: "민규의 서재", 
             item: "카펫",
             method: "DNA 분석",
             result: {
@@ -69,27 +69,27 @@ const list = {
                 text: "토마토의 DNA가 발견됐다."
             }
         }, {
-            place: "A의 서재", 
+            place: "민규의 서재", 
             item: "서적",
             method: "지문 분석",
             result: {
                 type: "code",
                 code: "8231",
-                text: "한 지문이 발견됐다.",
+                text: "민규의 지문이 발견됐다.",
                 image: "Afinger.png"
             }
         }, {
-            place: "A의 서재", 
+            place: "민규의 서재", 
             item: "스탠드",
             method: "지문 분석",
             result: {
                 type: "code",
                 code: "0725",
-                text: "한 지문이 발견됐다.",
+                text: "민규의 지문이 발견됐다.",
                 image: "Afinger.png"
             }
         }, {
-            place: "A의 서재", 
+            place: "민규의 서재", 
             item: "목도리",
             method: "혈흔 감식",
             result: {
@@ -98,26 +98,26 @@ const list = {
                 image: "luminolX.png"
             }
         }, {
-            place: "A의 서재", 
+            place: "민규의 서재", 
             item: "목도리",
             method: "지문 분석",
             result: {
                 type: "code",
                 code: "1384",
-                text: "한 지문이 발견됐다.",
+                text: "민규의 지문이 발견됐다.",
                 image: "Afinger.png"
             }
         }, {
-            place: "A의 서재", 
+            place: "민규의 서재", 
             item: "목도리",
             method: "DNA 분석",
             result: {
                 type: "code",
                 code: "5287",
-                text: "A의 DNA가 발견됐다."
+                text: "민규의 DNA가 발견됐다."
             }
         }, {
-            place: "A의 서재", 
+            place: "민규의 서재", 
             item: "핸드폰",
             method: "디지털 포렌식",
             result: {
@@ -126,16 +126,17 @@ const list = {
                 image: "phone1.png"
             }
         }, {
-            place: "A의 서재", 
+            place: "민규의 서재", 
             item: "핸드폰",
             method: "지문 분석",
             result: {
                 type: "code",
                 code: "2519",
+                text: "민규의 지문이 발견됐다.",
                 image: "Afinger.png"
             }
         }, {
-            place: "A의 서재", 
+            place: "민규의 서재", 
             item: "골프채",
             method: "혈흔 감식",
             result: {
@@ -144,113 +145,113 @@ const list = {
                 image: "luminolO.png"
             }
         }, {
-            place: "A의 서재", 
+            place: "민규의 서재", 
             item: "골프채",
             method: "지문 분석",
             result: {
                 type: "code",
                 code: "6128",
-                text: "한 지문이 발견됐다.",
+                text: "X의 지문이 발견됐다.",
                 image: "Xfinger.png"
             }
         }, {
-            place: "A의 서재", 
+            place: "민규의 서재", 
             item: "골프채",
             method: "DNA 분석",
             result: {
                 type: "code",
                 code: "4832",
-                text: "A의 DNA가 발견됐다."
+                text: "민규의 DNA가 발견됐다."
             }
         }, {
-            place: "B의 침실", //*******************************B의 침실
+            place: "지유의 침실", //*******************************지유의 침실
             item: "아버지의 요원증",
             method: "지문 분석",
             result: {
                 type: "code",
                 code: "9042",
-                text: "한 지문이 발견됐다.",
+                text: "요원 1의 지문이 발견됐다.",
                 image: "1finger.png"
             }
         }, {
-            place: "B의 침실",
+            place: "지유의 침실",
             item: "가족 사진",
             method: "지문 분석",
             result: {
                 type: "code",
                 code: "7145",
-                text: "한 지문이 발견됐다.",
+                text: "요원 1의 지문이 발견됐다.",
                 image: "1finger.png"
             }
         }, {
-            place: "B의 침실",
+            place: "지유의 침실",
             item: "무드등",
             method: "지문 분석",
             result: {
                 type: "code",
                 code: "2976",
-                text: "한 지문이 발견됐다.",
+                text: "지유의 지문이 발견됐다.",
                 image: "Bfinger.png"
             }
         }, {
-            place: "B의 침실",
+            place: "지유의 침실",
             item: "베개",
             method: "지문 분석",
             result: {
                 type: "code",
                 code: "5812",
-                text: "한 지문이 발견됐다.",
+                text: "지유의 지문이 발견됐다.",
                 image: "Bfinger.png"
             }
         }, {
-            place: "B의 침실",
+            place: "지유의 침실",
             item: "베개",
             method: "DNA 분석",
             result: {
                 type: "code",
                 code: "4905",
-                text: "B의 DNA가 발견됐다.",
+                text: "지유의 DNA가 발견됐다.",
             }
         }, {
-            place: "B의 침실",
+            place: "지유의 침실",
             item: "TV",
             method: "지문 분석",
             result: {
                 type: "code",
                 code: "1820",
-                text: "한 지문이 발견됐다.",
+                text: "지유의 지문이 발견됐다.",
                 image: "Bfinger.png"
             }
         }, {
-            place: "B의 침실",
+            place: "지유의 침실",
             item: "TV",
             method: "DNA 분석",
             result: {
                 type: "code",
                 code: "8576",
-                text: "B의 DNA가 발견됐다.",
+                text: "지유의 DNA가 발견됐다.",
             }
         }, {
-            place: "B의 침실",
+            place: "지유의 침실",
             item: "클립 파일",
             method: "지문 분석",
             result: {
                 type: "code",
                 code: "3714",
-                text: "세 종류의 지문이 발견됐다.",
+                text: "요원 1, 2, 3의 지문이 발견됐다.",
                 image: "123finger.png"
             }
         }, {
-            place: "B의 침실",
+            place: "지유의 침실",
             item: "빨간 담배",
             method: "DNA 분석",
             result: {
                 type: "code",
                 code: "6821",
-                text: "B의 DNA가 발견됐다.",
+                text: "지유의 DNA가 발견됐다.",
             }
         }, {
-            place: "B의 침실",
+            place: "지유의 침실",
             item: "노란 담배",
             method: "DNA 분석",
             result: {
@@ -259,7 +260,7 @@ const list = {
                 text: "요원 2의 DNA가 발견됐다.",
             }
         }, {
-            place: "B의 침실",
+            place: "지유의 침실",
             item: "갈색 담배",
             method: "DNA 분석",
             result: {
@@ -268,36 +269,36 @@ const list = {
                 text: "요원 3의 DNA가 발견됐다.",
             }
         }, {
-            place: "B의 침실",
+            place: "지유의 침실",
             item: "사과",
             method: "DNA 분석",
             result: {
                 type: "code",
                 code: "4718",
-                text: "B의 DNA가 발견됐다.",
+                text: "지유의 DNA가 발견됐다.",
             }
         }, {
-            place: "B의 침실",
+            place: "지유의 침실",
             item: "사과",
             method: "지문 분석",
             result: {
                 type: "code",
                 code: "7924",
-                text: "한 지문이 발견됐다.",
+                text: "지유의 지문이 발견됐다.",
                 image: "Bfinger.png"
             }
         }, {
-            place: "B의 침실",
+            place: "지유의 침실",
             item: "과도",
             method: "지문 분석",
             result: {
                 type: "code",
                 code: "1295",
-                text: "한 지문이 발견됐다.",
+                text: "지유의 지문이 발견됐다.",
                 image: "Bfinger.png"
             }
         }, {
-            place: "B의 침실", 
+            place: "지유의 침실", 
             item: "과도",
             method: "혈흔 감식",
             result: {
@@ -306,7 +307,7 @@ const list = {
                 image: "luminolX.png"
             }
         }, {
-            place: "B의 침실",
+            place: "지유의 침실",
             item: "과도",
             method: "DNA 분석",
             result: {
@@ -315,150 +316,150 @@ const list = {
                 text: "사과의 DNA가 발견됐다.",
             }
         }, {
-            place: "B의 침실",
+            place: "지유의 침실",
             item: "칼집",
             method: "지문 분석",
             result: {
                 type: "code",
                 code: "5691",
-                text: "한 지문이 발견됐다.",
+                text: "지유의 지문이 발견됐다.",
                 image: "Bfinger.png"
             }
         }, {
-            place: "B의 침실",
+            place: "지유의 침실",
             item: "장갑",
             method: "지문 분석",
             result: {
                 type: "code",
                 code: "6157",
-                text: "한 지문이 발견됐다.",
+                text: "지유의 지문이 발견됐다.",
                 image: "Bfinger.png"
             }
         }, {
-            place: "B의 침실",
+            place: "지유의 침실",
             item: "장갑",
             method: "DNA 분석",
             result: {
                 type: "code",
                 code: "3481",
-                text: "B의 DNA가 발견됐다."
+                text: "지유의 DNA가 발견됐다."
             }
         }, {
-            place: "C의 사무실", //*******************************C의 사무실
+            place: "정호의 사무실", //*******************************정호의 사무실
             item: "볼펜꽂이",
             method: "지문 분석",
             result: {
                 type: "code",
                 code: "7510",
-                text: "한 지문이 발견됐다.",
+                text: "정호의 지문이 발견됐다.",
                 image: "Cfinger.png"
             }
         }, {
-            place: "C의 사무실",
+            place: "정호의 사무실",
             item: "볼펜꽂이",
             method: "DNA 분석",
             result: {
                 type: "code",
                 code: "2645",
-                text: "C의 DNA가 발견됐다."
+                text: "정호의 DNA가 발견됐다."
             }
         }, {
-            place: "C의 사무실",
+            place: "정호의 사무실",
             item: "클립 파일",
             method: "지문 분석",
             result: {
                 type: "code",
                 code: "9512",
-                text: "한 지문이 발견됐다.",
+                text: "정호의 지문이 발견됐다.",
                 image: "Cfinger.png"
             }
         }, {
-            place: "C의 사무실",
+            place: "정호의 사무실",
             item: "클립 파일",
             method: "DNA 분석",
             result: {
                 type: "code",
                 code: "4035",
-                text: "C의 DNA가 발견됐다."
+                text: "정호의 DNA가 발견됐다."
             }
         }, {
-            place: "C의 사무실",
+            place: "정호의 사무실",
             item: "달력",
             method: "지문 분석",
             result: {
                 type: "code",
                 code: "1482",
-                text: "한 지문이 발견됐다.",
+                text: "정호의 지문이 발견됐다.",
                 image: "Cfinger.png"
             }
         }, {
-            place: "C의 사무실",
+            place: "정호의 사무실",
             item: "달력",
             method: "DNA 분석",
             result: {
                 type: "code",
                 code: "8016",
-                text: "C의 DNA가 발견됐다."
+                text: "정호의 DNA가 발견됐다."
             }
         }, {
-            place: "C의 사무실",
+            place: "정호의 사무실",
             item: "책",
             method: "지문 분석",
             result: {
                 type: "code",
                 code: "6825",
-                text: "한 지문이 발견됐다.",
+                text: "정호의 지문이 발견됐다.",
                 image: "Cfinger.png"
             }
         }, {
-            place: "C의 사무실",
+            place: "정호의 사무실",
             item: "책",
             method: "DNA 분석",
             result: {
                 type: "code",
                 code: "3519",
-                text: "C의 DNA가 발견됐다."
+                text: "정호의 DNA가 발견됐다."
             }
         }, {
-            place: "C의 사무실",
+            place: "정호의 사무실",
             item: "액자",
             method: "지문 분석",
             result: {
                 type: "code",
                 code: "5138",
-                text: "한 지문이 발견됐다.",
+                text: "정호의 지문이 발견됐다.",
                 image: "Cfinger.png"
             }
         }, {
-            place: "C의 사무실",
+            place: "정호의 사무실",
             item: "액자",
             method: "DNA 분석",
             result: {
                 type: "code",
                 code: "1724",
-                text: "C의 DNA가 발견됐다."
+                text: "정호의 DNA가 발견됐다."
             }
         }, {
-            place: "C의 사무실",
+            place: "정호의 사무실",
             item: "노트북",
             method: "지문 분석",
             result: {
                 type: "code",
                 code: "4175",
-                text: "한 지문이 발견됐다.",
+                text: "정호의 지문이 발견됐다.",
                 image: "Cfinger.png"
             }
         }, {
-            place: "C의 사무실",
+            place: "정호의 사무실",
             item: "노트북",
             method: "DNA 분석",
             result: {
                 type: "code",
                 code: "7290",
-                text: "C의 DNA가 발견됐다."
+                text: "정호의 DNA가 발견됐다."
             }
         }, {
-            place: "C의 사무실",
+            place: "정호의 사무실",
             item: "금고 속 무언가",
             method: "디지털 포렌식",
             result: {
@@ -467,51 +468,51 @@ const list = {
                 text: "고위 간부 정보와<br>X의 위치를 조사한<br>기록이 있다."
             }
         }, {
-            place: "C의 사무실",
+            place: "정호의 사무실",
             item: "마우스",
             method: "지문 분석",
             result: {
                 type: "code",
                 code: "5261",
-                text: "한 지문이 발견됐다.",
+                text: "정호의 지문이 발견됐다.",
                 image: "Cfinger.png"
             }
         }, {
-            place: "C의 사무실",
+            place: "정호의 사무실",
             item: "마우스",
             method: "DNA 분석",
             result: {
                 type: "code",
                 code: "8792",
-                text: "C의 DNA가 발견됐다."
+                text: "정호의 DNA가 발견됐다."
             }
         }, {
-            place: "C의 사무실",
+            place: "정호의 사무실",
             item: "마우스패드",
             method: "지문 분석",
             result: {
                 type: "code",
                 code: "2835",
-                text: "한 지문이 발견됐다.",
+                text: "정호의 지문이 발견됐다.",
                 image: "Cfinger.png"
             }
         }, {
-            place: "C의 사무실",
+            place: "정호의 사무실",
             item: "마우스패드",
             method: "DNA 분석",
             result: {
                 type: "code",
                 code: "7240",
-                text: "C의 DNA가 발견됐다."
+                text: "정호의 DNA가 발견됐다."
             }
         }, {
-            place: "C의 사무실",
+            place: "정호의 사무실",
             item: "금고",
             method: "지문 분석",
             result: {
                 type: "code",
                 code: "3072",
-                text: "한 지문이 발견됐다.",
+                text: "정호의 지문이 발견됐다.",
                 image: "Cfinger.png"
             }
         }, {
@@ -534,14 +535,6 @@ const list = {
             }
         }, {
             place: "사건 현장", 
-            item: "시신의 팔",
-            method: "시신 부검",
-            result: {
-                type: "no-code",
-                text: "팔에 방어흔이 있다.",
-            }
-        }, {
-            place: "사건 현장", 
             item: "시신의 손",
             method: "시신 부검",
             result: {
@@ -554,7 +547,7 @@ const list = {
             method: "시신 부검",
             result: {
                 type: "no-code",
-                text: "양측성 시반이 나타난다.",
+                text: "배쪽에 시반이 나타난다.",
             }
         }, {
             place: "사건 현장", 
@@ -585,12 +578,21 @@ const list = {
             }
         }, {
             place: "사건 현장",
+            item: "현장의 바닥",
+            method: "DNA 분석",
+            result: {
+                type: "code",
+                code: "2168",
+                text: "X의 DNA가 발견됐다."
+            }
+        }, {
+            place: "사건 현장",
             item: "문 손잡이",
             method: "지문 분석",
             result: {
                 type: "code",
                 code: "9613",
-                text: "안쪽 손잡이에서 왼쪽의 한 지문과<br>바깥쪽 손잡이에서<br>오른쪽의 두 종류의 지문이 발견됐다.",
+                text: "안쪽 손잡이에서 지유의 지문과<br>바깥쪽 손잡이에서 민규와 지유의 지문이 발견됐다.",
                 image: "BABfinger.png"
             }
         }, {
@@ -600,7 +602,7 @@ const list = {
             result: {
                 type: "code",
                 code: "4865",
-                text: "두 종류의 지문이 발견됐다.",
+                text: "정호와 X의 지문이 발견됐다.",
                 image: "XCfinger.png"
             }
         }, {
@@ -610,7 +612,7 @@ const list = {
             result: {
                 type: "code",
                 code: "5168",
-                text: "두 종류의 지문이 발견됐다.",
+                text: "민규와 X의 지문이 발견됐다.",
                 image: "AXfinger.png"
             }
         }, {
@@ -629,7 +631,7 @@ const list = {
             result: {
                 type: "code",
                 code: "6819",
-                text: "한 지문이 발견됐다.",
+                text: "X의 지문이 발견됐다.",
                 image: "Xfinger.png"
             }
         }, {
